@@ -5,10 +5,10 @@
 
 # Requerimientos
 # En este caso nuestro trabajo requiere: 1 nodo con 4 procesadores disponibles, 1 hora de ejecución.
-#PBS -l nodes=1:ppn=1,walltime=20:00:00
+#PBS -l nodes=1:ppn=24,walltime=20:00:00
 
 # Cola de ejecución
-#PBS -q serial
+#PBS -q medium_jobs
 
 # Directorio de trabajo
 #PBS -d /home/renzom/mic2015-trafico/ec/app/trafico
@@ -57,8 +57,8 @@ echo $NPROCS
 echo
 
 export CLASSPATH=/home/renzom/mic2015-trafico/
-for TIPO in low normal high 
+for TIPO in high2 
 do
 	echo "Ejecutando instancia tipo $TIPO"
-	java ec.Evolve -file /home/renzom/mic2015-trafico/ec/app/trafico/trafico.params -p pop.subpop.0.species.ruta-adyacencias=/home/renzom/mic2015-trafico/ec/app/trafico/instancias/$TIPO.txt -p stat.solution.file=res_$TIPO/solution.stat -p stat.front=res_$TIPO/front.stat -p stat.file=res_$TIPO/out.stat 
+	java ec.Evolve -file /home/renzom/mic2015-trafico/ec/app/trafico/trafico.params -p pop.subpop.0.species.ruta-adyacencias=/home/renzom/mic2015-trafico/ec/app/trafico/instancias/high.txt -p stat.solution.file=res_$TIPO/solution.stat -p stat.front=res_$TIPO/front.stat -p stat.file=res_$TIPO/out.stat 
 done

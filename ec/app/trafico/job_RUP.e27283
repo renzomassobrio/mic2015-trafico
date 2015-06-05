@@ -1,0 +1,24 @@
+
+| ECJ
+| An evolutionary computation system (version 22)
+| By Sean Luke
+| Contributors: L. Panait, G. Balan, S. Paus, Z. Skolicki, R. Kicinger,
+|               E. Popovici, K. Sullivan, J. Harrison, J. Bassett, R. Hubley,
+|               A. Desai, A. Chircop, J. Compton, W. Haddon, S. Donnelly,
+|               B. Jamil, J. Zelibor, E. Kangas, F. Abidi, H. Mooers,
+|               J. O'Beirne, L. Manzoni, K. Talukder, and J. McDermott
+| URL: http://cs.gmu.edu/~eclab/projects/ecj/
+| Mail: ecj-help@cs.gmu.edu
+|       (better: join ECJ-INTEREST at URL above)
+| Date: August 1, 2014
+| Current Java: 1.6.0_32 / OpenJDK 64-Bit Server VM-23.25-b01
+| Required Minimum Java: 1.5
+
+
+Threads:  breed/24 eval/24
+Seed: -1255997870 -1255997869 -1255997868 -1255997867 -1255997866 -1255997865 -1255997864 -1255997863 -1255997862 -1255997861 -1255997860 -1255997859 -1255997858 -1255997857 -1255997856 -1255997855 -1255997854 -1255997853 -1255997852 -1255997851 -1255997850 -1255997849 -1255997848 -1255997847 
+Job: 0
+Setting up
+FATAL ERROR:
+An IOException occurred while trying to create the log /home/renzom/mic2015-trafico/ec/app/trafico/res_/out.stat:
+java.io.FileNotFoundException: /home/renzom/mic2015-trafico/ec/app/trafico/res_/job.0.out.stat (No such file or directory)

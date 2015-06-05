@@ -1,0 +1,24 @@
+
+| ECJ
+| An evolutionary computation system (version 22)
+| By Sean Luke
+| Contributors: L. Panait, G. Balan, S. Paus, Z. Skolicki, R. Kicinger,
+|               E. Popovici, K. Sullivan, J. Harrison, J. Bassett, R. Hubley,
+|               A. Desai, A. Chircop, J. Compton, W. Haddon, S. Donnelly,
+|               B. Jamil, J. Zelibor, E. Kangas, F. Abidi, H. Mooers,
+|               J. O'Beirne, L. Manzoni, K. Talukder, and J. McDermott
+| URL: http://cs.gmu.edu/~eclab/projects/ecj/
+| Mail: ecj-help@cs.gmu.edu
+|       (better: join ECJ-INTEREST at URL above)
+| Date: August 1, 2014
+| Current Java: 1.6.0_32 / OpenJDK 64-Bit Server VM-23.25-b01
+| Required Minimum Java: 1.5
+
+
+Threads:  breed/24 eval/24
+Seed: -1255818412 -1255818411 -1255818410 -1255818409 -1255818408 -1255818407 -1255818406 -1255818405 -1255818404 -1255818403 -1255818402 -1255818401 -1255818400 -1255818399 -1255818398 -1255818397 -1255818396 -1255818395 -1255818394 -1255818393 -1255818392 -1255818391 -1255818390 -1255818389 
+Job: 0
+Setting up
+Initializing Generation 0
+FATAL ERROR:
+java.io.FileNotFoundException: /home/renzom/mic2015-trafico/ec/app/trafico/instancias/hihg.txt (No such file or directory)hubo algun problema con la lectura del archivo
